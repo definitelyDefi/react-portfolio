@@ -1,0 +1,49 @@
+
+
+.wrapper{
+    width: 300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    color: gray;
+}
+
+.button:hover{
+    color: black;
+    transition: .2s all ease;
+    font-weight: 700;
+}
+
+.empty{
+    background-color: transparent;
+    border: none;
+}
+
+.input{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.input input{
+    display: block;
+    width: 215px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border: 2px solid black;
+    color: black;
+    padding: 5px 20px;
+}

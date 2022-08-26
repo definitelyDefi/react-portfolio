@@ -1,0 +1,58 @@
+
+.header{
+    background-color: #343a40 ;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    align-items: center;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+
+.burgerContainer{
+    margin-right: 20px;
+    color:white;
+}
+
+.profileContainer{
+    color:white;
+}
+
+.homeContainer{
+    margin-left: 20px;
+    color: white;
+}
+
+.profile:hover{
+    fill: #2E8BC0;
+    transition: .4 ease;
+}
+
+.home:hover{
+    fill: #2E8BC0;
+    transition: .4 ease;
+}
+
+.burger:hover{
+    fill: #2E8BC0;
+    transition: .4 ease;
+}
+
+.offcanvasLink{
+    color:  black ;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.offcanvasTitle{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+

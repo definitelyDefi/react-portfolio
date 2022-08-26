@@ -1,0 +1,67 @@
+
+.title{
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.textMark{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.text , .title{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.wrapper{
+    
+    width: 800px;
+    margin: 0 auto 50px auto;
+    border: 2px dashed gray;
+    padding: 10px 50px;
+}
+
+.items{
+    display: flex;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 908px){
+    .wrapper{
+        width: 400px;
+        padding: 3px 20px;
+    }
+    .items{
+        width: 520px;
+        margin: 0 auto;
+    }
+   
+}
+
+@media only screen and (min-width: 908px) and (max-width: 1338px){
+    .items{
+        width: 980px;
+        margin: 0 auto;
+    }
+   
+}
+
+@media only screen and (min-width: 1338px) and (max-width: 1766px){
+    .items{
+        width: 1400px;
+        margin: 0 auto;
+    }
+   
+}
+
+.container{
+    padding: 50px 0px 50px 0px;
+}
+

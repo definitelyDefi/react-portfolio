@@ -1,0 +1,71 @@
+
+
+
+.error{
+    background-color: gray;
+    color: white;
+    height: 200px;
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+}
+
+.city{
+
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
+.forecast{
+    
+    margin: 50px 0px 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 908px){
+
+    .forecast{
+        width: 300px;
+        margin: 50px auto;
+    }
+   
+}
+
+@media only screen and (min-width: 908px) and (max-width: 1072px){
+
+    .forecast{
+        width: 700px;
+        margin: 50px auto;
+    }
+   
+}
+
+@media only screen and (min-width: 1072px) and (max-width: 1416px ){
+
+    .forecast{
+        width: 1000px;
+        margin: 50px auto;
+    }
+   
+}
+
+@media only screen and (min-width: 1416px) and (max-width: 1758px ){
+
+    .forecast{
+        width: 1400px;
+        margin: 50px auto;
+    }
+   
+}
+
+
+
+
+

@@ -1,0 +1,96 @@
+.note{
+    width: 350px;
+    
+    border-radius: 15px;
+    padding: 20px 20px 40px 20px;
+    height: 250px;
+    overflow-wrap: break-word;
+    inline-size: 350px;
+}
+
+.note:nth-child(3n+1){
+    background-color: #129a7d;
+}
+.note:nth-child(3n-1){
+    background-color: #A4C9D7;
+}
+.note:nth-child(2n+1){
+    background-color:burlywood;
+}
+.note:nth-child(6n){
+    background-color:#FADAE2;
+}
+.note:nth-child(4n){
+    background-color: #DC7684;
+}
+
+.note:nth-child(3n){
+    background-color: #f6a24e;
+    
+   
+}
+
+
+
+
+.note {
+    margin: 10px;
+    position: relative;
+}
+
+.title{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: serif;
+    text-decoration: none;
+    
+    display: inline-block;
+}
+.title::after{
+    content: '';
+    height: 2px;
+    margin-top: 5px;
+    background-color: black;
+    display: block;
+}
+
+.body{
+    font-size: 20px;
+    font-family: serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: transparent;
+    margin: 10px auto;
+    font-family: serif;
+    font-size: 20px;
+    
+
+}
+
+.button:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    transition: .2 all ease-in;
+    
+}
+
+.date{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.delete{
+    position: absolute;
+    bottom: 19px;
+    right: 30px;
+    background-color: transparent;
+    border: none;
+}

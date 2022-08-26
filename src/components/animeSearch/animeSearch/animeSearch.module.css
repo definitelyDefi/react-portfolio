@@ -1,0 +1,44 @@
+
+.wrapper{
+    display: flex;
+
+    justify-content: center;
+    margin-bottom: 50px;
+}   
+
+.input{
+    width: 300px;
+    
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.input::placeholder{
+    text-align: center;
+    
+}
+
+.button{
+    width: 50px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 2px solid black;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    background-image: url('./../../../assets/search.svg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
+    font-size: 20px;
+    
+}
+
+.button:hover{
+    transform: scale(1.1,1.1);
+    border: 2px dashed black;
+    transition: .2s all ease;
+}

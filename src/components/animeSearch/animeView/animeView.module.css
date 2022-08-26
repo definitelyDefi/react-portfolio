@@ -1,0 +1,76 @@
+
+
+
+.items{
+    display: flex;
+}
+
+.cover{
+    
+    height: 400px;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 1680px;
+}
+
+
+.poster{
+    margin: 10px 50px 10px 110px;
+}
+
+
+.description{
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+}
+
+
+.dates, .rank, .rating, .type, .episodes, .status, .length{
+    margin-bottom: 10px;
+}
+
+span{
+    color: black;
+}
+
+.title, .description, .dates, .rank, .rating, .type, .episodes, .status, .length{
+    font-weight: 400;
+    color: gray;
+    font-size: 25px;
+}
+
+.genres{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.genre{
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 0 15px;
+    border-radius: 4px;
+    color: #6200ee;
+    background: transparent;
+    line-height: 1.15;
+    font-size: 14px;
+    height: 36px;
+    word-spacing: 0px;
+    letter-spacing: .0892857143em;
+    text-decoration: none;
+    text-transform: uppercase;
+    min-width: 64px;
+    border: 1px solid #6200ee;
+    text-align: center;
+    
+    
+
+}
+.genre:hover{
+    
+    background: #f4f4f4;
+     
+}

@@ -1,0 +1,11 @@
+.description{
+    border: 2px dashed gray;
+    width: 50vh;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,58 @@
+.item{
+    padding: 30px;
+    border: 2px dashed black;
+}
+
+.item{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.title{
+    height: fit-content;
+    overflow-wrap: break-word;
+    inline-size: 350px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    
+    
+}
+
+.button{
+    display: block;
+    margin: 0 auto 20px auto;
+    background: #339DFF;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 38px;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 170px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #fff;
+    color: #339DFF;
+    box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+}
+
+
+.startDate, .episodeCount, .showType, .popularity, .rating, .status{
+    font-weight: 400;
+    color: gray;
+}
+.attrs{
+    color:black;
+    font-family: serif;
+}
+
+.poster{
+    width: 380px;
+    height: 550px;
+    margin-bottom: 20px;
+}
