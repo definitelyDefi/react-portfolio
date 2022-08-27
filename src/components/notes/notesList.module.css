@@ -1,61 +1,49 @@
+.list {
+  display: flex;
+  flex-direction: row;
 
-
-.list{
-    display: flex;
-    flex-direction: row;
-    
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-top: 50px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 50px;
 }
 
-
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-
-
-
-
-	
-@media only screen and (min-width: 740px) and (max-width: 1108px){
-    .list{
-        margin: 50px auto;
-        max-width: 800px;
-    }
-   
+@media only screen and (min-width: 740px) and (max-width: 1108px) {
+  .list {
+    margin: 50px auto;
+    max-width: 800px;
+  }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 740px){
-    .list{
-        margin: 50px auto;
-        max-width: 350px;
-    }
-    
+@media only screen and (min-width: 0px) and (max-width: 740px) {
+  .list {
+    margin: 50px auto;
+    max-width: 350px;
+  }
 }
 
-@media only screen and (min-width: 1108px) and (max-width: 1478px){
-    .list{
-        margin: 50px auto;
-        max-width: 1200px;
-    }
+@media only screen and (min-width: 1108px) and (max-width: 1478px) {
+  .list {
+    margin: 50px auto;
+    max-width: 1200px;
+  }
 }
 
-@media only screen and (min-width: 1478px) and (max-width: 1852px){
-    .list{
-        margin: 50px auto;
-        max-width: 1600px;
-    }
+@media only screen and (min-width: 1478px) and (max-width: 1852px) {
+  .list {
+    margin: 50px auto;
+    max-width: 1600px;
+  }
 }
 
-@media only screen and (min-width: 1484px) and (max-width: 5000px){
-    .addButton{
-        width: 100px;
-    }
+@media only screen and (min-width: 1484px) and (max-width: 5000px) {
+  .addButton {
+    width: 100px;
+  }
 }
-
-
